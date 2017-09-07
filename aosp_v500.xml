@@ -24,7 +24,7 @@
           fetch="https://bitbucket.org/" />
 
   <!-- general -->
-  <project path="build/make" name="android_build" remote="aosp-kenzo" >
+  <project path="build/make" name="android_build" remote="aosp-v500" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
