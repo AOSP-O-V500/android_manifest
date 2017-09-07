@@ -14,6 +14,11 @@
           revision="oreo"
           fetch="https://github.com/AOSP-O-Kenzo/" />
 
+  <!-- AOSP-O-V500 remote -->
+  <remote name="aosp-v500"
+          revision="oreo"
+          fetch="https://github.com/AOSP-O-V500/" />
+
   <!-- Bitbucket remote -->
   <remote name="bb"
           fetch="https://bitbucket.org/" />
@@ -48,6 +53,7 @@
   <!-- system -->
   <project path="system/vold" name="android_system_vold" remote="aosp-kenzo" />
   <project path="system/core" name="android_system_core" remote="aosp-kenzo" />
+  <project path="system/bt" name="android_system_bt" remote="aosp-v500" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="aosp-kenzo" />
 
   <!-- sepolicy -->
@@ -60,10 +66,9 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="aosp-kenzo" />
 
   <!-- hardware -->
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="aosp-kenzo" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aosp-kenzo" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="aosp-kenzo" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aosp-kenzo" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="aosp-v500" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aosp-v500" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aosp-kenzo" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aosp-kenzo" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aosp-kenzo" />
