@@ -82,9 +82,4 @@
   <project path="vendor/aosp" name="android_vendor_aosp" remote="aosp-kenzo" />
   <project path="vendor/gapps" name="jhenrique09/vendor_gapps" clone-depth="1" revision="oreo" remote="gitlab" />
 
-  <!-- kenzo -->
-  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="aosp-kenzo" />
-  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="aosp-kenzo" />
-  <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="aosp-kenzo" />
-
 </manifest>
