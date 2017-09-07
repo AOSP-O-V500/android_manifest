@@ -16,7 +16,7 @@
 
   <!-- AOSP-O-V500 remote -->
   <remote name="aosp-v500"
-          revision="oreo"
+          revision="android-8.0"
           fetch="https://github.com/AOSP-O-V500/" />
 
   <!-- Bitbucket remote -->
