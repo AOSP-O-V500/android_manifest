@@ -87,7 +87,7 @@
   <project path="vendor/gapps" name="jhenrique09/vendor_gapps" clone-depth="1" revision="oreo" remote="gitlab" />
 
 <!-- Snapdragon LLVM Compiler -->
-<project path="prebuilts/clang/host/linux-x86/3.8" name="AdrianoMartins/android_vendor_qcom_sdclang-3.8" remote="github" revision="android-8.0"/>
+<project path="prebuilts/clang/host/linux-x86/3.8" name="AdrianoMartins/android_vendor_qcom_sdclang-3.8" remote="github" revision="master"/>
 
 <!-- GCC Toolchain Cortex-a15 -->
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" name="AdrianoMartins/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master"/>
