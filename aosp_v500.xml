@@ -89,4 +89,11 @@
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" name="AdrianoMartins/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master"/>
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" name="AdrianoMartins/arm-eabi-4.9-cortex-a15" remote="bb" revision="master"/>
 
+<!-- Device - v500 -->
+<project path="kernel/lge/v500" name="AdrianoMartins/android_kernel_lge_v500" remote="github" revision="android-8.0" />
+<project path="device/lge/v500" name="AdrianoMartins/device_lge_v500" remote="github" revision="android-8.0" >
+    <copyfile src="make_v500.sh" dest="make_v500.sh" />
+</project>
+<project path="vendor/lge" name="AdrianoMartins/proprietary_vendor_lge" remote="github" revision="android-8.0" />
+
 </manifest>
