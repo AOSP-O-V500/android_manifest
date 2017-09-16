@@ -74,6 +74,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aosp-kenzo" />
 
   <!-- packages -->
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="aosp-kenzo" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="aosp-kenzo" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="aosp-kenzo" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aosp-kenzo" />
