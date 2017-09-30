@@ -93,6 +93,7 @@
 
 <!-- Snapdragon LLVM Compiler -->
 <project path="prebuilts/clang/host/linux-x86/3.8" name="AdrianoMartins/android_vendor_qcom_sdclang-3.8" remote="github" revision="master"/>
+<project path="prebuilts/clang/host/linux-x86/4.0" name="AdrianoMartins/android_vendor_qcom_sdclang-4.0" remote="github" revision="master"/>
 
 <!-- GCC Toolchain Cortex-a15 -->
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" name="AdrianoMartins/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master"/>
